@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+   <!--Bootstrap CDN-->
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+
+   <title>Favorite Cuisines fom the 6 Continents</title>
+</head>
+
+<body>
+  <!--Jumbotron-->
+   <div class="jumbotron ">
+       <h1 class="bluecolor">Cuisines from the 6 Continents</h1>
+   </div>
+
+   <!--Bootstrap container and rows-->
+   <div class="container">
+        <div class="row" >
+
+          <!--Continent buttons-->
+            <div class = "col-lg-12 " id="places"><h3 class="redcolor">Favorite Dish</h3>
+                <input name="selector" id="ad_Checkbox1" class="ads_Checkbox" type="radio" value="Africa" />
+                <label class="blackcolor">AFRICA</label>
+                  <br> 
+                <input name="selector" id="ad_Checkbox3" class="ads_Checkbox" type="radio" value="Asia" />
+                <label class="blackcolor">ASIA</label>
+                  <br>
+                <input name="selector" id="ad_Checkbox4" class="ads_Checkbox" type="radio" value="Australia" />
+                <label class="blackcolor">AUSTRALIA</label>
+                  <br>
+                <input name="selector" id="ad_Checkbox5" class="ads_Checkbox" type="radio" value="Europe" />
+                <label class="blackcolor">EUROPE</label>
+                  <br>
+                <input name="selector" id="ad_Checkbox5" class="ads_Checkbox" type="radio" value="North America" />
+                <label class="blackcolor">NORTH AMERICA</label>
+                  <br>
+                <input name="selector" id="ad_Checkbox5" class="ads_Checkbox" type="radio" value="South America" />
+                <label class="blackcolor">SOUTH AMERICA</label>
+                  <br>  
+                
+                  <!--"Get Great Dish" buttons-->
+                <input type="button" id="redbutton" name="redbutton" value="Click here for a Great Dish!" />
+            </div>       
+        </div>
+
+        <div class="row">
+            <div class="col-lg-9" id="card">
+              <!--Food card with name,image, and link to food magazine-->
+                <div class="card remove">
+                        <img src="..." class="card-img-top" alt="Prepared Food">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary" id="recipieLink" target="_blank">More Great Info!!</a>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <!--Jquery and script file-->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+  

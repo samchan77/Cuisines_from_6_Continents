@@ -1,0 +1,73 @@
+
+.jumbotron {
+    background-image: linear-gradient(rgba(17, 228, 17, 0.5), rgba(110, 175, 219, 0.5)), url("images/dish.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    z-index: 0;
+    height: 250px;
+    background-position: 25%, 0, 0, 0;
+}
+
+.bluecolor {
+    color: navy;
+    z-index: 1;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 70px;
+    top: 5px;
+    position: relative;
+    font-family: 'Lobster', cursive;
+
+}
+
+.redcolor {
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    color: red;
+    font-size: 50px;
+}
+
+.blackcolor {
+    color:black;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+}
+
+body {
+    background-image: linear-gradient(rgba(41, 190, 86, 0.5), rgba(40, 192, 40, 0.5)), url("images/dish3.jpg");
+}
+
+#places {
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 100%;
+    float: left;
+}
+
+.remove {
+    display: none;
+}
+
+#card {
+    max-width: 100%;
+    margin-top: 20px;
+    position: relative;
+    right: 2px;
+}
+
+.card-img-top{
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+
+#redbutton {
+    border-radius: .25rem;
+    background-color: red;;
+    border-color: #6b992f;;
+    color: white;
+}
+
